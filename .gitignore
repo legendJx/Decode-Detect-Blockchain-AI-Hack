@@ -1,0 +1,22 @@
+# Competition data (not ours to redistribute; download from the hackathon site)
+train/
+validation/
+test-data/
+decode-and-detect-training-data/
+decode-and-detect-test-data/
+*.parquet
+market_rates.csv
+labels.csv
+
+# Generated outputs
+predictions*.csv
+*.executed.ipynb
+*.zip
+
+# Python / Jupyter / OS
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
