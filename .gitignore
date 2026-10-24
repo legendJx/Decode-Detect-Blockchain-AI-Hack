@@ -20,3 +20,7 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .DS_Store
+
+# Organisers' starter file: copy it from the training download (kept out until we confirm
+# the terms allow redistributing it)
+payments.py
