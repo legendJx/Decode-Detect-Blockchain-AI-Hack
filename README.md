@@ -24,11 +24,12 @@ transaction, for investigation only; it does not affect the predictions.
 
 ## Layout
 
-Place the data next to the code (the data is not in this repo; `.gitignore` keeps it out):
+Place the data and the organisers' `payments.py` next to the code. Neither is in this repo
+(`.gitignore` keeps them out); both come from the hackathon's training download:
 
 ```
 detector.ipynb
-payments.py
+payments.py   # from the training download (organisers' data loader)
 train/        # from the training download (transactions, transfers, blocks, market_rates, labels.csv)
 test-data/    # the unzipped test download
 ```
